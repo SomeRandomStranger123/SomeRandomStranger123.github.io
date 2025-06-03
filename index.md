@@ -5,7 +5,7 @@ A categorized index of all my writeups across cloud security, AWS, CTFs, and too
 Legend:  
 ✅ = Complete & Published  
 📝 = In Progress  
-🕳️ = Not Started  
+🔒 = Not Started  
 
 ---
 
