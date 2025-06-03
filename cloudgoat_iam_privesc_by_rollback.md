@@ -1,8 +1,4 @@
-
-title: "Privilege Escalation via iam:SetDefaultPolicyVersion (Rollback Attack)"
-description: "Escalating AWS IAM privileges by reverting to an older, over-permissive policy version using iam:SetDefaultPolicyVersion."
-
-# 🚀 Privilege Escalation via `iam:SetDefaultPolicyVersion` (Rollback Attack)
+# 🚀 CLOUD GOAT - IAM Privilege Escalation via  ROLLBACK - `iam:SetDefaultPolicyVersion` (Rollback Attack)
 
 ## 📝 TL;DR
 
