@@ -1,8 +1,3 @@
----
-title: Writeups
-layout: default
----
-
 # 🧠 Pentesting Writeups
 
 A categorized index of all my writeups across cloud security, AWS, CTFs, and tooling.
