@@ -1,9 +1,6 @@
----
+
 title: "Privilege Escalation via iam:SetDefaultPolicyVersion (Rollback Attack)"
 description: "Escalating AWS IAM privileges by reverting to an older, over-permissive policy version using iam:SetDefaultPolicyVersion."
-date: 2025-06-02
-tags: [aws, privilege-escalation, cloudgoat, iam, pentesting]
----
 
 # 🚀 Privilege Escalation via `iam:SetDefaultPolicyVersion` (Rollback Attack)
 
