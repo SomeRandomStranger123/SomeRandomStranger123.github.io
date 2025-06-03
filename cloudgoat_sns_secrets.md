@@ -1,5 +1,5 @@
 
-# CloudGoat Walkthrough: sns_secrets Scenario
+# CloudGoat: sns_secrets Scenario
 
 ## ⚡ TL;DR: Quick Summary
 
