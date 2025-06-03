@@ -1,4 +1,4 @@
-# 🚀 CLOUD GOAT - IAM Privilege Escalation via  ROLLBACK - `iam:SetDefaultPolicyVersion` (Rollback Attack)
+# 🚀 CLOUDGOAT - IAM Privilege Escalation via  ROLLBACK - `iam:SetDefaultPolicyVersion` (Rollback Attack)
 
 ## 📝 TL;DR
 
