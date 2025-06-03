@@ -21,7 +21,7 @@ Legend:
 ✅ [sns_secrets](cloudgoat/cloudgoat_sns_secrets.md)  
 ✅ [lambda_privesc](cloudgoat/cloudgoat_lambda_privesc.md)  
 🕳️ iam_privesc_by_key_rotation
-✅ iam_privesc_by_rollback(cloudgoat/cloudgoat_iam_rollback_attack.md)  
+✅ [iam_privesc_by_rollback](cloudgoat/cloudgoat_iam_rollback_attack.md)
 🕳️ sqs_flag_shop  
 
 ---
