@@ -16,7 +16,7 @@ Legend:
 - ✅ [sns_secrets](/cloudgoat_sns_secrets.md) – Involves secrets leaked through SNS topics and subscriptions.  
 - ✅ [lambda_privesc](/cloudgoat_lambda_privesc.md) – Exploits Lambda permissions for privilege escalation.  
 - 🔒 [iam_privesc_by_key_rotation](/cloudgoat_iam_privesc_by_key_rotation.md) – Explores abusing old access keys after key rotation *(not yet documented)*.  
-- ✅ [iam_privesc_by_rollback](/cloudgoat_iam_rollback_attack.md) – Demonstrates privilege escalation using `iam:SetDefaultPolicyVersion`.  
+- ✅ [iam_privesc_by_rollback](/cloudgoat_iam_privesc_by_rollback.md) – Demonstrates privilege escalation using `iam:SetDefaultPolicyVersion`.  
 - 🔒 [sqs_flag_shop](/cloudgoat_sqs_flag_shop.md) – Scenario involving SQS misconfigurations and flag retrieval *(not yet documented)*.  
 
 ---
