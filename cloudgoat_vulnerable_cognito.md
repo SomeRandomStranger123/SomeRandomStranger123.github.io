@@ -8,11 +8,8 @@ We exploit a misconfigured AWS Cognito environment by signing up through a vulne
 
 ## 🎯 Target Information
 
-- **Region**: `us-east-1`
-- **Cognito Identity Pool ID**: `us-east-1:a96c9f79-324c-c9d1-3de8-ec55221338c8`
-- **Cognito App Client ID**: `24m03titp7v5d0eli306vqimto`  
-- **Cognito User Pool ID**: `us-east-1_mSaMI1nQ1`
-
+apigateway_url = "https://xxxx.execute-api.us-east-1.amazonaws.com/vulncognito/cognitoctf-cgid730b6h5u8m/index.html"
+cloudgoat_output_aws_account_id = "xxxx"
 ---
 
 ## 🧽 Step-by-Step Exploitation
