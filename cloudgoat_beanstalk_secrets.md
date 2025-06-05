@@ -1,6 +1,6 @@
 # 🚀 CloudGoat: Beanstalk Secrets Privilege Escalation Walkthrough
 
-## TL;DR
+## 📝TL;DR
 
 ### Attack Chain Summary:
 - Low-priv user enumerates Elastic Beanstalk and discovers IAM credentials in environment variables.
