@@ -6,7 +6,7 @@ We exploit a misconfigured AWS Cognito environment by signing up through a vulne
 
 ---
 
-## 🎯 Target Information
+## 🎯 Initial Access
 
 apigateway_url = "https://xxxx.execute-api.us-east-1.amazonaws.com/vulncognito/cognitoctf-cgid730b6h5u8m/index.html"
 cloudgoat_output_aws_account_id = "xxxx"
