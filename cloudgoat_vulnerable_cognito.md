@@ -89,7 +89,8 @@ Login now redirects us to a new page:
 
 We use **Burp Suite** to intercept the login and capture our **access token**.
 
-![image (3)](https://github.com/user-attachments/assets/3b19f169-b710-4e47-95f5-33f1de65ece0)
+![cognito](https://github.com/user-attachments/assets/c5952bd1-b17a-40d1-97cb-655119f81765)
+
 
 We validate the token via:
 
