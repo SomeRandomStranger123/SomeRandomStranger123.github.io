@@ -1,4 +1,4 @@
-# 🧠 Pentesting Writeups
+# 🧠 Writeups
 
 A categorized index of all my writeups across cloud security, AWS, CTFs, and tooling.
 
@@ -9,7 +9,7 @@ Legend:
 
 ---
 
-## 🛠️ CloudGoat Scenarios
+## 🛠️ CloudGoat(AWS PENTESTING) Scenarios
 
 ### 🟢 Easy  
 - ✅ [beanstalk_secrets](/cloudgoat_beanstalk_secrets.md) – Leverages secrets exposed via AWS Elastic Beanstalk configuration files.  
@@ -22,7 +22,7 @@ Legend:
 ---
 
 ### 🟡 Medium  
-- 🔒 [vulnerable_cognito](cloudgoat/cloudgoat_vulnerable_cognito.md) – Cognito misconfiguration or vulnerability scenario *(not yet documented)*.  
+- ✅[vulnerable_cognito](cloudgoat_vulnerable_cognito.md) – Cognito misconfiguration or vulnerability scenario *(not yet documented)*.  
 - 🔒 [vulnerable_lambda](cloudgoat/cloudgoat_vulnerable_lambda.md) – Lambda function vulnerability exploration *(not yet documented)*.  
 - 🔒 [cloud_breach_s3](cloudgoat/cloudgoat_cloud_breach_s3.md) – S3 bucket exposure or attack chain scenario *(not yet documented)*.  
 - 🔒 [iam_privesc_by_attachment](cloudgoat/cloudgoat_iam_privesc_by_attachment.md) – IAM privilege escalation via policy attachment *(not yet documented)*.  
@@ -41,11 +41,6 @@ Legend:
 - 🔒 [ecs_efs_attack](cloudgoat/cloudgoat_ecs_efs_attack.md) – ECS compromise via insecurely mounted EFS volumes *(not yet documented)*.  
 ---
 
-## ☁️ AWS Pentesting (General)
-
-_(Coming soon)_
-
----
 
 ## 🏴‍☠️ CTF Writeups
 
