@@ -96,5 +96,5 @@ Legend:
 
 ---
 
-*This index is continuously updated. Feel free to open an issue or PR on [GitHub](https://github.com/yourrepo) to contribute or request features!*
+*This index is continuously updated. Feel free to open an issue or PR on [GitHub](https://github.com/SomeRandomStranger123) to contribute or request features!*
 
