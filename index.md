@@ -7,53 +7,94 @@ Legend:
 📝 = In Progress  
 🔒 = Not Started  
 
-## 🔐Blue Team Activities
-
-## 🧪 Pwnd Labs
-- 🔒 [Initial Access](pwndlabs/pwndlabs_breach_in_the_cloud) –  Utilizing Powershell or Grep to Aalyzing CloudTrail logs to identify suspicious AWS activity, trace the attacker’s steps, and confirm the breach.
-- 
-## 🔍 Cybr Labs
-
-
-## 🔐Red Team Activities
-
-## 🛠️ CloudGoat(AWS PENTESTING) Scenarios - Listed from Hard -> easy 
-### 🔴 Hard  
-- 📝 [secrets_in_the_cloud](/secrets_in_the_cloud.md) – Focuses on discovering and exploiting exposed secrets in an AWS environment.  
-### 🟡 Medium  
-- ✅[vulnerable_cognito](cloudgoat_vulnerable_cognito.md) – Cognito misconfiguration or vulnerability scenario
-### 🟡 Easy
-- ✅ [beanstalk_secrets](/cloudgoat_beanstalk_secrets.md) – Leverages secrets exposed via AWS Elastic Beanstalk configuration files.  
-- ✅ [sns_secrets](/cloudgoat_sns_secrets.md) – Involves secrets leaked through SNS topics and subscriptions.  
-- ✅ [lambda_privesc](/cloudgoat_lambda_privesc.md) – Exploits Lambda permissions for privilege escalation.  
-
-- ✅ [iam_privesc_by_rollback](/cloudgoat_iam_privesc_by_rollback.md) – Demonstrates privilege escalation using `iam:SetDefaultPolicyVersion`.  
-
-
-
-Left Over Cloudgoat -> plan to eventually complete all 
-
-- 🔒 [iam_privesc_by_key_rotation](/cloudgoat_iam_privesc_by_key_rotation.md) – Explores abusing old access keys after key rotation *(not yet documented)*.
-- 🔒 [sqs_flag_shop](/cloudgoat_sqs_flag_shop.md) – Scenario involving SQS misconfigurations and flag retrieval *(not yet documented)*.
-  
-- 🔒 [vulnerable_lambda](cloudgoat/cloudgoat_vulnerable_lambda.md) – Lambda function vulnerability exploration *(not yet documented)*.  
-- 🔒 [cloud_breach_s3](cloudgoat/cloudgoat_cloud_breach_s3.md) – S3 bucket exposure or attack chain scenario *(not yet documented)*.  
-- 🔒 [iam_privesc_by_attachment](cloudgoat/cloudgoat_iam_privesc_by_attachment.md) – IAM privilege escalation via policy attachment *(not yet documented)*.  
-- 🔒 [ec2_ssrf](cloudgoat/cloudgoat_ec2_ssrf.md) – SSRF from EC2 to access metadata/internal endpoints *(not yet documented)*.  
-- 🔒 [ecs_takeover](cloudgoat/cloudgoat_ecs_takeover.md) – ECS misconfiguration or credential takeover *(not yet documented)*.  
-- 🔒 [rds_snapshot](cloudgoat/cloudgoat_rds_snapshot.md) – Access via publicly shared RDS snapshots *(not yet documented)*.  
-- 🔒 [glue_privesc](cloudgoat/cloudgoat_glue_privesc.md) – Glue job-based privilege escalation *(not yet documented)*.  
-
-- 🔒 [rce_web_app](cloudgoat/cloudgoat_rce_web_app.md) – Remote Code Execution via vulnerable web app *(not yet documented)*.  
-- 🔒 [codebuild_secrets](cloudgoat/cloudgoat_codebuild_secrets.md) – Secret leakage through CodeBuild environments or artifacts *(not yet documented)*.  
-- 🔒 [detection_evasion](cloudgoat/cloudgoat_detection_evasion.md) – Techniques for evading CloudTrail or other monitoring *(not yet documented)*.  
-- 🔒 [ecs_efs_attack](cloudgoat/cloudgoat_ecs_efs_attack.md) – ECS compromise via insecurely mounted EFS volumes *(not yet documented)*.  
 ---
 
+## 📋 Contents
+
+- [🔐 Blue Team Activities](#-blue-team-activities)  
+- [🔐 Red Team Activities](#-red-team-activities)  
+- [🏴‍☠️ CTF Writeups](#-ctf-writeups)  
+- [🧪 Tools & Techniques](#-tools--techniques)  
+- [🗂️ Miscellaneous](#-miscellaneous)  
+
+---
+
+## 🔐 Blue Team Activities
+
+### 🧪 Pwnd Labs  
+- 🔒 **[Initial Access](pwndlabs/pwndlabs_breach_in_the_cloud)** – Utilizing PowerShell or Grep to analyze CloudTrail logs, identify suspicious AWS activity, trace attacker steps, and confirm breaches.  
+  _Tags: #AWS #CloudTrail #Forensics #IncidentResponse_  
+  _Last Updated: June 2025_  
+
+### 🔍 Cybr Labs  
+- 🔒 *(Coming soon)*
+
+---
+
+## 🔐 Red Team Activities
+
+### 🛠️ CloudGoat (AWS PenTesting) Scenarios — Listed from Hard → Easy  
+
+#### 🔴 Hard  
+- 📝 **[Secrets in the Cloud](/secrets_in_the_cloud.md)** – Discover and exploit exposed secrets in an AWS environment.  
+  _Tags: #AWS #Secrets #PrivilegeEscalation_  
+  _Last Updated: June 2025_  
+
+#### 🟡 Medium  
+- ✅ **[Vulnerable Cognito](cloudgoat_vulnerable_cognito.md)** – Exploit a Cognito misconfiguration or vulnerability.  
+  _Tags: #AWS #Cognito #Authentication_  
+  _Last Updated: April 2025_  
+
+#### 🟢 Easy  
+- ✅ **[Beanstalk Secrets](/cloudgoat_beanstalk_secrets.md)** – Leverage secrets exposed via AWS Elastic Beanstalk configs.  
+  _Tags: #AWS #Beanstalk #Secrets_  
+  _Last Updated: June 2025_  
+- ✅ **[SNS Secrets](/cloudgoat_sns_secrets.md)** – Secrets leaked through SNS topics and subscriptions.  
+  _Tags: #AWS #SNS #Secrets_  
+  _Last Updated: May 2025_  
+- ✅ **[Lambda Privilege Escalation](/cloudgoat_lambda_privesc.md)** – Exploit Lambda permissions for privilege escalation.  
+  _Tags: #AWS #Lambda #PrivilegeEscalation_
+  _Last Updated: May 2025_  
+- ✅ **[IAM Privesc by Rollback](/cloudgoat_iam_privesc_by_rollback.md)** – Use `iam:SetDefaultPolicyVersion` to escalate privileges.  
+  _Tags: #AWS #IAM #PrivilegeEscalation_  
+  _Last Updated: May 2025_  
+---
+
+### Leftover CloudGoat — Planned for Completion  
+
+- 🔒 **[IAM Privesc by Key Rotation](/cloudgoat_iam_privesc_by_key_rotation.md)** – Abuse old access keys after rotation.  
+- 🔒 **[SQS Flag Shop](/cloudgoat_sqs_flag_shop.md)** – SQS misconfigurations & flag retrieval.  
+- 🔒 **[Vulnerable Lambda](cloudgoat/cloudgoat_vulnerable_lambda.md)** – Lambda function vulnerability exploration.  
+- 🔒 **[Cloud Breach S3](cloudgoat/cloudgoat_cloud_breach_s3.md)** – S3 bucket exposure attack chain.  
+- 🔒 **[IAM Privesc by Attachment](cloudgoat/cloudgoat_iam_privesc_by_attachment.md)** – Privilege escalation via policy attachment.  
+- 🔒 **[EC2 SSRF](cloudgoat/cloudgoat_ec2_ssrf.md)** – SSRF from EC2 to internal endpoints.  
+- 🔒 **[ECS Takeover](cloudgoat/cloudgoat_ecs_takeover.md)** – ECS misconfiguration or credential takeover.  
+- 🔒 **[RDS Snapshot](cloudgoat/cloudgoat_rds_snapshot.md)** – Access via publicly shared RDS snapshots.  
+- 🔒 **[Glue Privesc](cloudgoat/cloudgoat_glue_privesc.md)** – Glue job-based privilege escalation.  
+- 🔒 **[RCE Web App](cloudgoat/cloudgoat_rce_web_app.md)** – Remote code execution via web app.  
+- 🔒 **[CodeBuild Secrets](cloudgoat/cloudgoat_codebuild_secrets.md)** – Secret leakage through CodeBuild.  
+- 🔒 **[Detection Evasion](cloudgoat/cloudgoat_detection_evasion.md)** – Techniques to evade CloudTrail or monitoring.  
+- 🔒 **[ECS EFS Attack](cloudgoat/cloudgoat_ecs_efs_attack.md)** – ECS compromise via insecurely mounted EFS volumes.  
+
+---
 
 ## 🏴‍☠️ CTF Writeups
 
+- _(Coming soon)_  
+
+---
+
 ## 🧪 Tools & Techniques
 
+- _(Coming soon)_  
+
+---
+
 ## 🗂️ Miscellaneous
+
+- _(Coming soon)_
+
+---
+
+*This index is continuously updated. Feel free to open an issue or PR on [GitHub](https://github.com/yourrepo) to contribute or request features!*
 
