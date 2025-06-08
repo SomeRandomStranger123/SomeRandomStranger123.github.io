@@ -46,7 +46,7 @@ Get-ChildItem *.json | ForEach-Object {
 ```
 
 ✅ Same result on Windows.
-
+![image (4)](https://github.com/user-attachments/assets/c29f70f6-8933-4a42-8edc-ce25a7bd90c1)
 ---
 
 ## 🔍 Step 2: Enumerate Active Users from Logs
@@ -66,10 +66,12 @@ Get-ChildItem -Recurse -File |
     Sort-Object -Unique
 ```
 
-📸 **Insert Screenshot Here:**  
-🖼️ `![User enumeration results](images/username-grep-results.png)`
+
+
+![image (5)](https://github.com/user-attachments/assets/700a61d5-97b7-4991-99af-742a4edc42cb)
 
 This reveals the suspicious username `temp-user` that doesn’t match internal naming conventions.
+
 
 ---
 
@@ -91,9 +93,8 @@ ForEach-Object {
 }
 ```
 
-📸 **Insert Screenshot Here:**  
-🖼️ `![Suspicious failed activities](images/failed-enum-activity.png)`  
-🖼️ `![More failed actions](images/permissions-denied.png)`
+![image (6)](https://github.com/user-attachments/assets/b5fba224-bfb7-493d-853d-3ded764b9558)
+![image (7)](https://github.com/user-attachments/assets/806fb1a7-07b6-4436-85ba-fc4a103266ad)
 
 We see multiple failed activity attempts — likely early enumeration.
 
@@ -108,13 +109,10 @@ We see multiple failed activity attempts — likely early enumeration.
 "arn": "arn:aws:iam::107513503799:user/temp-user"
 ```
 
-📸 **Insert Screenshot Here:**  
-🖼️ `![GetCallerIdentity event](images/get-caller-identity.png)`
+
 
 We can `whois` or `curl` the IP to investigate its source.
-
-📸 **Insert Screenshot Here:**  
-🖼️ `![Whois IP address](images/ip-whois-results.png)`
+![image (8)](https://github.com/user-attachments/assets/b0f7a011-b378-44d3-8cd2-07d5a97d2a8c)
 
 ---
 
@@ -143,17 +141,17 @@ Get-ChildItem -Recurse -File |
 ## 🚨 Step 6: Privilege Escalation Found
 
 ```json
-"eventName": "AssumeRole",
-"roleArn": "arn:aws:iam::107513503799:role/AdminRole",
-"sourceIPAddress": "84.32.71.33",
-"userName": "temp-user"
-```
-
-📸 **Insert Screenshot Here:**  
-🖼️ `![AssumeRole privilege escalation](images/assume-role-admin.png)`
-
+ "userName":  "temp-user"                     },
+ "eventTime":  "2023-08-26T20:54:28Z",
+ "eventSource":  "sts.amazonaws.com",
+ "eventName":  "AssumeRole",
+ "awsRegion":  "us-east-1",
+ "sourceIPAddress":  "84.32.71.33",
+ "userAgent":  "aws-cli/1.27.74 Python/3.10.6 Linux/5.15.90.1-microsoft-standard-WSL2 botocore/1.29.74",
+ "requestParameters":  {
+ "roleArn":  "arn:aws:iam::107513503799:role/AdminRole",
 Confirms elevation from `temp-user` to `AdminRole`.
-
+```
 ---
 
 ## 🔎 Step 7: Filter by IP, Exclude AccessDenied
@@ -192,10 +190,6 @@ $output | Out-File "filtered_output.txt" -Encoding UTF8
 "sourceIPAddress": "84.32.71.3"
 ```
 
-📸 **Insert Screenshot Here:**  
-🖼️ `![S3 GetObject - emergency.txt](images/s3-emergency-object-access.png)`
-
----
 
 ## ✅ Validation: Simulating the Attack Path with AWS CLI
 
