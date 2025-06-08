@@ -36,26 +36,26 @@ Legend:
 ### 🛠️ CloudGoat (AWS PenTesting) Scenarios — Listed from Hard → Easy  
 
 #### 🔴 Hard  
-- 📝 **[Secrets in the Cloud](/cloudgoat_secrets_in_the_cloud.md)** – Discover and exploit exposed secrets in an AWS environment.  
+- 📝 **[Secrets in the Cloud](writeups/cloudgoat_secrets_in_the_cloud.md)** – Discover and exploit exposed secrets in an AWS environment.  
   _Tags: #AWS #Secrets #PrivilegeEscalation_  
   _Last Updated: June 2025_  
 
 #### 🟡 Medium  
-- ✅ **[Vulnerable Cognito](cloudgoat_vulnerable_cognito.md)** – Exploit a Cognito misconfiguration or vulnerability.  
+- ✅ **[Vulnerable Cognito](writeups/cloudgoat_vulnerable_cognito.md)** – Exploit a Cognito misconfiguration or vulnerability.  
   _Tags: #AWS #Cognito #Authentication_  
   _Last Updated: June 2025_  
 
 #### 🟢 Easy  
-- ✅ **[Beanstalk Secrets](/cloudgoat_beanstalk_secrets.md)** – Leverage secrets exposed via AWS Elastic Beanstalk configs.  
+- ✅ **[Beanstalk Secrets](writeups/cloudgoat_beanstalk_secrets.md)** – Leverage secrets exposed via AWS Elastic Beanstalk configs.  
   _Tags: #AWS #Beanstalk #Secrets_  
   _Last Updated: June 2025_  
-- ✅ **[SNS Secrets](/cloudgoat_sns_secrets.md)** – Secrets leaked through SNS topics and subscriptions.  
+- ✅ **[SNS Secrets](writeups/cloudgoat_sns_secrets.md)** – Secrets leaked through SNS topics and subscriptions.  
   _Tags: #AWS #SNS #Secrets_  
   _Last Updated: June 2025_  
-- ✅ **[Lambda Privilege Escalation](/cloudgoat_lambda_privesc.md)** – Exploit Lambda permissions for privilege escalation.  
+- ✅ **[Lambda Privilege Escalation](writeups/cloudgoat_lambda_privesc.md)** – Exploit Lambda permissions for privilege escalation.  
   _Tags: #AWS #Lambda #PrivilegeEscalation_
   _Last Updated: June 2025_  
-- ✅ **[IAM Privesc by Rollback](/cloudgoat_iam_privesc_by_rollback.md)** – Use `iam:SetDefaultPolicyVersion` to escalate privileges.  
+- ✅ **[IAM Privesc by Rollback](writeups/cloudgoat_iam_privesc_by_rollback.md)** – Use `iam:SetDefaultPolicyVersion` to escalate privileges.  
   _Tags: #AWS #IAM #PrivilegeEscalation_  
   _Last Updated:  June 2025_  
 ---
