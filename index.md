@@ -43,7 +43,7 @@ Legend:
 #### 🟡 Medium  
 - ✅ **[Vulnerable Cognito](cloudgoat_vulnerable_cognito.md)** – Exploit a Cognito misconfiguration or vulnerability.  
   _Tags: #AWS #Cognito #Authentication_  
-  _Last Updated: April 2025_  
+  _Last Updated: June 2025_  
 
 #### 🟢 Easy  
 - ✅ **[Beanstalk Secrets](/cloudgoat_beanstalk_secrets.md)** – Leverage secrets exposed via AWS Elastic Beanstalk configs.  
@@ -51,13 +51,13 @@ Legend:
   _Last Updated: June 2025_  
 - ✅ **[SNS Secrets](/cloudgoat_sns_secrets.md)** – Secrets leaked through SNS topics and subscriptions.  
   _Tags: #AWS #SNS #Secrets_  
-  _Last Updated: May 2025_  
+  _Last Updated: June 2025_  
 - ✅ **[Lambda Privilege Escalation](/cloudgoat_lambda_privesc.md)** – Exploit Lambda permissions for privilege escalation.  
   _Tags: #AWS #Lambda #PrivilegeEscalation_
-  _Last Updated: May 2025_  
+  _Last Updated: June 2025_  
 - ✅ **[IAM Privesc by Rollback](/cloudgoat_iam_privesc_by_rollback.md)** – Use `iam:SetDefaultPolicyVersion` to escalate privileges.  
   _Tags: #AWS #IAM #PrivilegeEscalation_  
-  _Last Updated: May 2025_  
+  _Last Updated:  June 2025_  
 ---
 
 ### Leftover CloudGoat — Planned for Completion  
