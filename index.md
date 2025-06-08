@@ -36,7 +36,7 @@ Legend:
 ### 🛠️ CloudGoat (AWS PenTesting) Scenarios — Listed from Hard → Easy  
 
 #### 🔴 Hard  
-- 📝 **[Secrets in the Cloud](/secrets_in_the_cloud.md)** – Discover and exploit exposed secrets in an AWS environment.  
+- 📝 **[Secrets in the Cloud](/cloudgoat_secrets_in_the_cloud.md)** – Discover and exploit exposed secrets in an AWS environment.  
   _Tags: #AWS #Secrets #PrivilegeEscalation_  
   _Last Updated: June 2025_  
 
