@@ -22,7 +22,7 @@ Legend:
 ## 🔐 Blue Team Activities
 
 ### 🧪 Pwned Labs  
-- 🔒 **[Initial Access](pwnedlabs_breach_in_the_cloud)** – Utilizing PowerShell or Grep to analyze CloudTrail logs, identify suspicious AWS activity, trace attacker steps, and confirm breaches.  
+- 🔒 **[Initial Access](writeups/pwnedlabs_breach_in_the_cloud)** – Utilizing PowerShell or Grep to analyze CloudTrail logs, identify suspicious AWS activity, trace attacker steps, and confirm breaches.  
   _Tags: #AWS #CloudTrail #Forensics #IncidentResponse_  
   _Last Updated: June 2025_  
 
