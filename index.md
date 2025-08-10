@@ -1,3 +1,19 @@
+# 🎓 Courses & Certifications
+A summary of formal training and certifications I've earned relevant to Cybersecurity and penetration testing.
+
+### Certifications
+- **TCM Practical Junior Penetration Tester**
+- **TCM Practical SOC Analyst Associate**
+- **AWS Certified Cloud Practitioner**
+
+### Continued Education Courses
+- **SIMPLYCYBER - Hands-On Phishing**
+- **SIMPLYCYBER - Introduction to AWS Pentesting**
+- **Google Cybersecurity Certificate**
+- **TCM Programming with AI - Mini Course**
+
+---
+
 # 🧠 Writeups
 
 A categorized index of all my writeups across cloud security, AWS, CTFs, and tooling.
@@ -53,11 +69,12 @@ Legend:
   _Tags: #AWS #SNS #Secrets_  
   _Last Updated: June 2025_  
 - ✅ **[Lambda Privilege Escalation](writeups/cloudgoat_lambda_privesc.md)** – Exploit Lambda permissions for privilege escalation.  
-  _Tags: #AWS #Lambda #PrivilegeEscalation_
+  _Tags: #AWS #Lambda #PrivilegeEscalation_  
   _Last Updated: June 2025_  
 - ✅ **[IAM Privesc by Rollback](writeups/cloudgoat_iam_privesc_by_rollback.md)** – Use `iam:SetDefaultPolicyVersion` to escalate privileges.  
   _Tags: #AWS #IAM #PrivilegeEscalation_  
-  _Last Updated:  June 2025_  
+  _Last Updated: June 2025_  
+
 ---
 
 ### Leftover CloudGoat — Planned for Completion  
@@ -97,4 +114,3 @@ Legend:
 ---
 
 *This index is continuously updated. Feel free to open an issue or PR on [GitHub](https://github.com/SomeRandomStranger123) to contribute or request features!*
-
