@@ -9,8 +9,9 @@ A summary of formal training and certifications I've earned relevant to Cybersec
 ### Continued Education Courses
 - **SIMPLYCYBER - Hands-On Phishing**
 - **SIMPLYCYBER - Introduction to AWS Pentesting**
-- **Google Cybersecurity Certificate**
 - **TCM Programming with AI - Mini Course**
+- **Securiti.ai AI Security & Governance certificate**
+- **Google Cybersecurity Certificate**
 
 ---
 
@@ -114,3 +115,4 @@ Legend:
 ---
 
 *This index is continuously updated. Feel free to open an issue or PR on [GitHub](https://github.com/SomeRandomStranger123) to contribute or request features!*
+
