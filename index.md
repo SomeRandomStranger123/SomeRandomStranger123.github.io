@@ -4,9 +4,11 @@ title: "Home"
 
 <div class="hero" markdown="1">
 
-# 👋 Hey, I'm SomeRandomStranger
+# 👋 I'm Just Some Random Stranger
 
-I build automation tools and dig into cybersecurity — cloud pentesting, blue team analysis, and CTFs. This site is where the writeups, cheat sheets, and personal projects live.
+I write scripts and skills to automate the stuff I don't want to do by hand, as well as do things cybersec.
+
+Check out all my stuff below.
 
 <div class="hero-actions">
   <a class="btn primary" href="{{ '/projects' | relative_url }}">View Projects</a>
@@ -54,7 +56,7 @@ Quick-reference sheets for the tools and techniques I keep coming back to.
 
 ---
 
-## 🎓 Courses & Certifications
+## 🎓 Certifications
 
 <div class="tag-row">
   <span class="tag">TCM Practical Junior Penetration Tester</span>
