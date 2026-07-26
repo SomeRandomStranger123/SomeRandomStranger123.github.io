@@ -27,7 +27,7 @@ Automation scripts, scrapers, and tools I've built and actually use — IT ops, 
 
 <div class="card" markdown="1">
 ### [🧠 Writeups]({{ '/writeups' | relative_url }})
-Red/blue team labs and CTF walkthroughs, mostly AWS-focused — CloudGoat scenarios, Pwned Labs, and more as I finish them.
+AWS-focused red team labs — CloudGoat scenarios, with more as I finish them.
 </div>
 
 <div class="card" markdown="1">
@@ -44,15 +44,10 @@ Quick-reference sheets for the tools and techniques I keep coming back to.
 <div class="tag-row">
   <span class="tag">TCM Practical Junior Penetration Tester</span>
   <span class="tag">TCM Practical SOC Analyst Associate</span>
+  <span class="tag">TCM Practical SOC Analyst Professional</span>
+  <span class="tag">TCM Practical AI Pentest Associate</span>
   <span class="tag">AWS Certified Cloud Practitioner</span>
 </div>
-
-### Continued Education
-- **SIMPLYCYBER** — Hands-On Phishing
-- **SIMPLYCYBER** — Introduction to AWS Pentesting
-- **TCM** — Programming with AI (Mini Course)
-- **Securiti.ai** — AI Security & Governance Certificate
-- **Google** — Cybersecurity Certificate
 
 ---
 
