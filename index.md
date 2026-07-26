@@ -2,26 +2,57 @@
 title: "Home"
 ---
 
-# 👋 Welcome
+<div class="hero" markdown="1">
 
-I'm SomeRandomStranger — this site is where I share my cybersecurity writeups, cheat sheets, and personal projects.
+# 👋 Hey, I'm SomeRandomStranger
+
+I build automation tools and dig into cybersecurity — cloud pentesting, blue team analysis, and CTFs. This site is where the writeups, cheat sheets, and personal projects live.
+
+<div class="hero-actions">
+  <a class="btn primary" href="{{ '/projects' | relative_url }}">View Projects</a>
+  <a class="btn ghost" href="{{ '/writeups' | relative_url }}">Browse Writeups</a>
+  <a class="btn ghost" href="https://github.com/SomeRandomStranger123" target="_blank" rel="noopener">GitHub ↗</a>
+</div>
+
+</div>
+
+## 🗺️ Around this site
+
+<div class="card-grid" markdown="1">
+
+<div class="card" markdown="1">
+### [💻 Projects]({{ '/projects' | relative_url }})
+Automation scripts, scrapers, and tools I've built and actually use — IT ops, home automation, and a couple of just-for-fun ones.
+</div>
+
+<div class="card" markdown="1">
+### [🧠 Writeups]({{ '/writeups' | relative_url }})
+Red/blue team labs and CTF walkthroughs, mostly AWS-focused — CloudGoat scenarios, Pwned Labs, and more as I finish them.
+</div>
+
+<div class="card" markdown="1">
+### [📄 Cheat Sheets]({{ '/cheat_sheets' | relative_url }})
+Quick-reference sheets for the tools and techniques I keep coming back to.
+</div>
+
+</div>
 
 ---
 
-# 🎓 Courses & Certifications
-A summary of formal training and certifications I've earned relevant to Cybersecurity and penetration testing.
+## 🎓 Courses & Certifications
 
-### Certifications
-- **TCM Practical Junior Penetration Tester**
-- **TCM Practical SOC Analyst Associate**
-- **AWS Certified Cloud Practitioner**
+<div class="tag-row">
+  <span class="tag">TCM Practical Junior Penetration Tester</span>
+  <span class="tag">TCM Practical SOC Analyst Associate</span>
+  <span class="tag">AWS Certified Cloud Practitioner</span>
+</div>
 
-### Continued Education Courses
-- **SIMPLYCYBER - Hands-On Phishing**
-- **SIMPLYCYBER - Introduction to AWS Pentesting**
-- **TCM Programming with AI - Mini Course**
-- **Securiti.ai AI Security & Governance certificate**
-- **Google Cybersecurity Certificate**
+### Continued Education
+- **SIMPLYCYBER** — Hands-On Phishing
+- **SIMPLYCYBER** — Introduction to AWS Pentesting
+- **TCM** — Programming with AI (Mini Course)
+- **Securiti.ai** — AI Security & Governance Certificate
+- **Google** — Cybersecurity Certificate
 
 ---
 
