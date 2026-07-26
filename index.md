@@ -16,6 +16,21 @@ I build automation tools and dig into cybersecurity — cloud pentesting, blue t
 
 </div>
 
+## 🚀 Featured Project
+
+<div class="card featured" markdown="1">
+<span class="badge featured">⭐ Featured</span>
+
+### [sound-forager](https://github.com/SomeRandomStranger123/sound-forager)
+Personal tooling for a tagged, organized local music library, paired with a Claude Code skill that fans out subagents to find and fetch new tracks from several distinct discovery angles instead of one algorithm's favorites.
+
+<div class="tag-row">
+  <span class="tag">Python</span>
+  <span class="tag">yt-dlp</span>
+  <span class="tag">Claude Code Skill</span>
+</div>
+</div>
+
 ## 🗺️ Around this site
 
 <div class="card-grid" markdown="1">
@@ -48,7 +63,3 @@ Quick-reference sheets for the tools and techniques I keep coming back to.
   <span class="tag">TCM Practical AI Pentest Associate</span>
   <span class="tag">AWS Certified Cloud Practitioner</span>
 </div>
-
----
-
-*This site is continuously updated. Feel free to open an issue or PR on [GitHub](https://github.com/SomeRandomStranger123) to contribute or request features!*

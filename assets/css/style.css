@@ -380,6 +380,22 @@ main.wrap {
   color: var(--text-muted);
 }
 
+/* Featured project */
+
+.card.featured {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 35%, transparent), var(--shadow);
+}
+
+.badge.featured {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--accent-hover);
+}
+
+@media (prefers-color-scheme: dark) {
+  .badge.featured { color: var(--accent); }
+}
+
 /* Responsive */
 
 @media (max-width: 600px) {
