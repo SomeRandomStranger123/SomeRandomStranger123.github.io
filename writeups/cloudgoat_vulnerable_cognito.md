@@ -1,3 +1,7 @@
+---
+title: "CloudGoat: Vulnerable Cognito"
+---
+
 # 🛠️ CloudGoat vulnerable Cognito Writeup
 
 ## ⚡ TL;DR

@@ -1,3 +1,8 @@
+---
+title: "CloudGoat: Secrets in the Cloud"
+---
+
+# 🔐 CloudGoat: Secrets in the Cloud
 
 ## Initial Access
 

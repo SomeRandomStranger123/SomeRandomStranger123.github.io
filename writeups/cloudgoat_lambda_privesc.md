@@ -1,3 +1,7 @@
+---
+title: "CloudGoat: Lambda Privilege Escalation"
+---
+
 # 🛡️ CloudGoat Lambda Privilege Escalation Writeup
 
 This writeup details a privilege escalation scenario in an AWS environment simulated using [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat). The scenario involves escalating IAM permissions via a misconfigured Lambda management role.

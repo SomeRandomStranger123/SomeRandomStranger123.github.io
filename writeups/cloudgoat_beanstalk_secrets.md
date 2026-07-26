@@ -1,3 +1,7 @@
+---
+title: "CloudGoat: Beanstalk Secrets Privilege Escalation Walkthrough"
+---
+
 # 🚀 CloudGoat: Beanstalk Secrets Privilege Escalation Walkthrough
 
 ## 📝TL;DR

@@ -1,3 +1,6 @@
+---
+title: "Incident Analysis: Tracing a Suspicious User in AWS Logs"
+---
 
 # 🛠️ Incident Analysis: Tracing a Suspicious User in AWS Logs
 

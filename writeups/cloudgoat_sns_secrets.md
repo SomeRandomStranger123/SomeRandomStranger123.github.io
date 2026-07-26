@@ -1,3 +1,6 @@
+---
+title: "CloudGoat: SNS Secrets"
+---
 
 # CloudGoat: sns_secrets Scenario
 
